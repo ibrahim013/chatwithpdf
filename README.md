@@ -1,36 +1,79 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+### ChatWithPDF
+ChatWithPDF is an innovative web application designed to facilitate seamless interactions with PDF documents. Leveraging state-of-the-art technologies, it allows users to query and extract information from PDFs efficiently. The project is built on the concept of Retrieval-Augmented Generation (RAG), ensuring accurate and contextually relevant responses.
 
-## Getting Started
+### Features
+Query PDFs: Ask questions and get precise answers from your PDF documents.
+Authentication: Secure user login and registration using Kinle Auth.
+Database Management: Efficient data handling with DrizzleORM and Neon DB.
+Cloud Storage: Robust and scalable storage solutions powered by AWS.
+Vector Database: Enhanced search and retrieval capabilities with Pinecone DB.
+AI Integration: Natural language understanding and generation through Open AI.
+Deployment: Seamless deployment and hosting with Vercel SDK.
+Advanced Orchestration: Utilize LognChain for workflow and process automation.
 
-First, run the development server:
+### Technologies Used
+Next.js: React framework for building server-side rendering and static web applications.
+Kinle Auth: Authentication solution for secure user management.
+DrizzleORM: Type-safe ORM for Node.js and TypeScript.
+Neon DB: Scalable and high-performance database solution.
+AWS: Cloud storage and computing services for data and application hosting.
+Pinecone DB: Vector database for efficient similarity search and retrieval.
+LangChain: Loading and reading loaded PDFs.
+Open AI: AI-powered natural language processing and generation.
+Vercel SDK: Tools and services for optimal deployment and performance.
 
-```bash
+### Getting Started
+
+# Prerequisites
+Node.js (v14 or higher)
+npm or yarn
+AWS account
+Open AI API key
+Vercel account
+
+### Installation
+
+Clone the repository:
+
+```git clone https://github.com/your-username/chatwithpdf.git
+cd chatwithpdf```
+
+Install dependencies:
+
+```
+npm install
+# or
+yarn install 
+```
+# Set up environment variables:
+Create a .env file in the root directory and add the following variables:
+
+env
+```
+NEXT_PUBLIC_KINLE_AUTH_API_KEY=your_kinle_auth_api_key
+NEXT_PUBLIC_NEON_DB_URL=your_neon_db_url
+AWS_ACCESS_KEY_ID=your_aws_access_key_id
+AWS_SECRET_ACCESS_KEY=your_aws_secret_access_key
+NEXT_PUBLIC_PINECONE_API_KEY=your_pinecone_api_key
+OPENAI_API_KEY=your_openai_api_key 
+```
+
+### Run the development server:
+
+```
 npm run dev
 # or
 yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
+Open http://localhost:3000 with your browser to see the result.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### Deployment
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+Deploy your project on Vercel with a single command:
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+`vercel`
 
-## Learn More
+### License
+This project is licensed under the MIT License. See the LICENSE file for details.
 
-To learn more about Next.js, take a look at the following resources:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.

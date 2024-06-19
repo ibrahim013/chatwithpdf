@@ -9,18 +9,41 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@ant-design/icons": "^5.3.6",
+    "@ant-design/nextjs-registry": "^1.0.0",
+    "@aws-sdk/client-s3": "^3.556.0",
+    "@kinde-oss/kinde-auth-nextjs": "^2.2.3",
+    "@neondatabase/serverless": "^0.9.1",
+    "@pinecone-database/doc-splitter": "^0.0.1",
+    "@pinecone-database/pinecone": "^2.2.0",
+    "@tanstack/react-query": "^5.29.2",
+    "@types/md5": "^2.3.5",
+    "ai": "^3.0.34",
+    "antd": "^5.16.2",
+    "aws-sdk": "^2.1603.0",
+    "axios": "^1.6.8",
+    "clsx": "^2.1.1",
+    "dotenv": "^16.4.5",
+    "drizzle-orm": "^0.30.8",
+    "langchain": "^0.1.34",
+    "md5": "^2.3.0",
+    "next": "14.2.1",
+    "openai-edge": "^1.2.2",
+    "pdf-parse": "^1.1.1",
+    "pg": "^8.11.5",
     "react": "^18",
     "react-dom": "^18",
-    "next": "14.2.1"
+    "tailwind-merge": "^2.3.0"
   },
   "devDependencies": {
-    "typescript": "^5",
     "@types/node": "^20",
     "@types/react": "^18",
     "@types/react-dom": "^18",
+    "drizzle-kit": "^0.20.17",
+    "eslint": "^8",
+    "eslint-config-next": "14.2.1",
     "postcss": "^8",
     "tailwindcss": "^3.4.1",
-    "eslint": "^8",
-    "eslint-config-next": "14.2.1"
+    "typescript": "^5"
   }
 }

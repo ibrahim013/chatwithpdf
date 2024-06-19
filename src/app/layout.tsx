@@ -1,6 +1,9 @@
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
+import { AntdRegistry } from '@ant-design/nextjs-registry';
 import "./globals.css";
+import Provider from "@/components/Provider";
+
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -15,8 +18,12 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
-      <body className={inter.className}>{children}</body>
-    </html>
+    <AntdRegistry>
+      <Provider>
+      <html lang="en">
+            <body className={inter.className}> {children} </body>
+      </html>
+      </Provider>
+    </AntdRegistry>
   );
 }
