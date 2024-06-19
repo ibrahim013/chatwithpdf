@@ -2,25 +2,25 @@
 ChatWithPDF is an innovative web application designed to facilitate seamless interactions with PDF documents. Leveraging state-of-the-art technologies, it allows users to query and extract information from PDFs efficiently. The project is built on the concept of Retrieval-Augmented Generation (RAG), ensuring accurate and contextually relevant responses.
 
 ### Features
-Query PDFs: Ask questions and get precise answers from your PDF documents.
-Authentication: Secure user login and registration using Kinle Auth.
-Database Management: Efficient data handling with DrizzleORM and Neon DB.
-Cloud Storage: Robust and scalable storage solutions powered by AWS.
-Vector Database: Enhanced search and retrieval capabilities with Pinecone DB.
-AI Integration: Natural language understanding and generation through Open AI.
-Deployment: Seamless deployment and hosting with Vercel SDK.
-Advanced Orchestration: Utilize LognChain for workflow and process automation.
+Query PDFs: Ask questions and get precise answers from your PDF documents.  
+Authentication: Secure user login and registration using Kinle Auth.  
+Database Management: Efficient data handling with DrizzleORM and Neon DB.  
+Cloud Storage: Robust and scalable storage solutions powered by AWS.  
+Vector Database: Enhanced search and retrieval capabilities with Pinecone DB.  
+AI Integration: Natural language understanding and generation through Open AI.  
+
+
 
 ### Technologies Used
-Next.js: React framework for building server-side rendering and static web applications.
-Kinle Auth: Authentication solution for secure user management.
-DrizzleORM: Type-safe ORM for Node.js and TypeScript.
-Neon DB: Scalable and high-performance database solution.
-AWS: Cloud storage and computing services for data and application hosting.
-Pinecone DB: Vector database for efficient similarity search and retrieval.
-LangChain: Loading and reading loaded PDFs.
-Open AI: AI-powered natural language processing and generation.
-Vercel SDK: Tools and services for optimal deployment and performance.
+Next.js: React framework for building server-side rendering and static web applications.  
+Kinle Auth: Authentication solution for secure user management.  
+DrizzleORM: Type-safe ORM for Node.js and TypeScript.  
+Neon DB: Scalable and high-performance database solution.  
+AWS: Cloud storage and computing services for data and application hosting.  
+Pinecone DB: Vector database for efficient similarity search and retrieval.  
+LangChain: Loading and reading loaded PDFs.  
+Open AI: AI-powered natural language processing and generation.  
+Vercel SDK: Tools and services for optimal deployment and performance.  
 
 ### Getting Started
 
@@ -36,11 +36,9 @@ Vercel account
 Clone the repository:
 
 ```git clone https://github.com/your-username/chatwithpdf.git
-cd chatwithpdf```
+cd chatwithpdf
 
 Install dependencies:
-
-```
 npm install
 # or
 yarn install 
